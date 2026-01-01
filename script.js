@@ -5,14 +5,15 @@ const mainImage = document.getElementById("mainImage");
 
 /* الصور */
 const stepImages = {
-    '1': "img/هاي حبوبي.jpeg",
-    '2': "img/مجهزلك.jpeg",
-    '2_1': "img/اذا الجواب كان لا..jpeg",
-    '3': "img/اختار.jpeg",
-    'end_wait': "img/اذا الجواب كان لا..jpeg",
-    'end_surprise': "img/بحبك.jpg",
-    'end_love': "img/اليوم مختلف.jpeg"
+    '1': "اختار.jpeg",
+    '2': "اليوم مختلف.jpeg",
+    '2_1': "اذا الجواب كان لا.jpeg",
+    '3': "هبه.jpeg",
+    'end_wait': "اذا الجواب كان لا.jpeg",
+    'end_surprise': "بحبك.jpg",
+    'end_love': "اليوم مختلف.jpeg"
 };
+
 
 /* الأسئلة */
 const questions = {
@@ -57,7 +58,7 @@ const questions = {
   text: `
     <div class="video-container">
       <video class="final-video" controls autoplay muted playsinline preload="auto">
-        <source src="img/حُب عُمري.mp4" type="video/mp4">
+     <source src="حُب عُمري.mp4" type="video/mp4">
         متصفحك لا يدعم تشغيل الفيديو
       </video>
     </div>
@@ -151,4 +152,5 @@ setInterval(() => {
             animation:love ${time}s linear;">
         </div>
     `);
+
 }, 400);
