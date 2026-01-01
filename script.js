@@ -7,7 +7,7 @@ const mainImage = document.getElementById("mainImage");
 const stepImages = {
     '1': "اختار.jpeg",
     '2': "مجهزلك.jpeg",
-    '2_1': "اذا الجواب كان لا.jpeg",
+    '2_1': "ليههه.jpeg",
     '3': "اختار.jpeg",
     'end_wait': "اذا الجواب كان لا.jpeg",
     'end_surprise': "بحبك.jpg",
@@ -154,4 +154,5 @@ setInterval(() => {
     `);
 
 }, 400);
+
 
