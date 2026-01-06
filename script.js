@@ -58,7 +58,7 @@ const questions = {
   text: `
     <div class="video-container">
       <video class="final-video" controls autoplay muted playsinline preload="auto">
-     <source src="حُب عُمري.mp4" type="video/mp4">
+     <source src=".mp4" type="video/mp4">
         متصفحك لا يدعم تشغيل الفيديو
       </video>
     </div>
@@ -154,6 +154,7 @@ setInterval(() => {
     `);
 
 }, 400);
+
 
 
 
