@@ -53,7 +53,15 @@ const questions = {
         buttons: []
     },
 
-  
+    /* 🎬 الفيديو */
+    'end_love': {
+  text: `
+    <div class="video-container">
+      <video class="final-video" controls autoplay muted playsinline preload="auto">
+     <source src=".mp4" type="video/mp4">
+        متصفحك لا يدعم تشغيل الفيديو
+      </video>
+    </div>
   `,
   buttons: []
 },
@@ -146,6 +154,7 @@ setInterval(() => {
     `);
 
 }, 400);
+
 
 
 
